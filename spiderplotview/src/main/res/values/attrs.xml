@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--蛛网图文字的大小颜色-->
+    <attr name="spiderplot_txt_size" format="dimension"/>
+    <attr name="spiderplot_txt_color" format="color"/>
+    <!--蛛网图线的属性-->
+    <attr name="spiderplot_line_color" format="color"/>
+    <!--<attr name="spiderplot_line_length" format="integer"/>-->
+    <attr name="spiderplot_line_width" format="integer"/>
+    <!--蛛网图面积颜色-->
+    <attr name="spiderplot_areas_color" format="color"/>
+<!--蛛网图最大值-->
+    <attr name="spiderplot_range" format="integer"/>
+    <!--蛛网图层数-->
+    <attr name="spiderplot_tierNum" format="integer"/>
+
+
+    <declare-styleable name="SpiderPlotView">
+        <attr name="spiderplot_tierNum"/>
+        <attr name="spiderplot_range"/>
+        <attr name="spiderplot_areas_color"/>
+        <attr name="spiderplot_line_width"/>
+        <attr name="spiderplot_line_color"/>
+        <attr name="spiderplot_txt_size"/>
+        <attr name="spiderplot_txt_color"/>
+
+    </declare-styleable>
+</resources>

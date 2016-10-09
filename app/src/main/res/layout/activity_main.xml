@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cxy.com.spiderplot.MainActivity">
+
+    <cxy.com.spiderplotview.SpiderPlotView
+        android:id="@+id/view_spiderPlot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="111"
+        app:spiderplot_areas_color="#99399BFF"
+        app:spiderplot_line_color="#bbFF0000"
+        app:spiderplot_line_width="2"
+        app:spiderplot_range="300"
+        app:spiderplot_tierNum="4"
+        app:spiderplot_txt_color="#399BFF"
+        app:spiderplot_txt_size="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SeekBar
+            android:id="@+id/sb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/sb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb1" />
+
+        <SeekBar
+            android:id="@+id/sb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb2" />
+
+        <SeekBar
+            android:id="@+id/sb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb3" />
+
+        <SeekBar
+            android:id="@+id/sb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sb4" />
+    </RelativeLayout>
+
+</LinearLayout>
