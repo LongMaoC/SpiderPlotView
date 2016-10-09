@@ -1,2 +1,2 @@
 # SpiderPlotView
- ![image](https://github.com/LongMaoC/SpiderPlotView/gif/spiderplot.gif)
+ ![image](https://github.com/LongMaoC/SpiderPlotView/blob/master/gif/spiderplot.gif)
