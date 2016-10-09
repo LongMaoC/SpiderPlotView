@@ -12,10 +12,12 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by CXY on 2016/9/27.
- */
-
+/*****************************************
+ *蛛网图
+ *@author cxy
+ *created at  2016/10/9 15:03
+ *
+ ****************************************/
 public class SpiderPlotView extends View {
 
 
@@ -63,7 +65,6 @@ public class SpiderPlotView extends View {
         setTxtSize(typedArray.getDimension(R.styleable.SpiderPlotView_spiderplot_txt_size, 24f));
         setTxtColor(typedArray.getColor(R.styleable.SpiderPlotView_spiderplot_txt_color, Color.parseColor("#399BFF")));
 
-//        setSpiderLineLength(typedArray.getInt(R.styleable.SpiderPlotView_spiderplot_txt_size, 24));
         setSpiderLineColor(typedArray.getColor(R.styleable.SpiderPlotView_spiderplot_line_color, Color.parseColor("#FF0000")));
         setSpiderLineWidth(typedArray.getInt(R.styleable.SpiderPlotView_spiderplot_line_width, 1));
 
